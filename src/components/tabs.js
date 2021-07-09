@@ -16,6 +16,7 @@ const Tabs = (topics) => {
   // </div>
   //
   const topicsDiv = document.createElement('div')
+  topicsDiv.classList.add('topics')
 
   topics.forEach(ele => {
     const tabDiv = document.createElement('div')
@@ -39,7 +40,7 @@ const tabsAppender = (selector) => {
 
   axios.get('http://localhost:5000/api/topics')
   .then(response => {
-    console.log(response.data.topics)
+    
     const madeTab = Tabs(response.data.topics)
     appendTo.appendChild(madeTab)
   })
