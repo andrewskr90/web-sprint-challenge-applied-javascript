@@ -12,7 +12,7 @@ You are not allowed to collaborate during the sprint challenge.
 
 - [ ] Fork and clone the repo. Delete your old fork from Github first if you are repeating this Unit.
 - [ ] Open the assignment in Canvas and click on the "Set up git" option.
-- [ ] Follow instructions to set up Codegrade's Webhook and Deploy Key.
+- [x] Follow instructions to set up Codegrade's Webhook and Deploy Key.
 - [ ] Push your first commit: `git commit --allow-empty -m "first commit" && git push`.
 - [ ] Check to see that Codegrade has accepted your git submission.
 
@@ -38,7 +38,7 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 
 **Steps Required for MVP:**
 
-- [ ] Steps 1 and 2 are explained inside the `src/components/header.js` file.
+- [x] Steps 1 and 2 are explained inside the `src/components/header.js` file.
 - [ ] Steps 3 and 4 are explained inside the `src/components/tabs.js` file.
 - [ ] Steps 5 and 6 are explained inside the `src/components/card.js` file.
 
@@ -65,7 +65,12 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is the DOM?
+    The document object model is an object built from javascript, representing our webpage. It's built in a tree-like way, with elements of our html branching off each other. It serves as the bridge between our code and the web page.
 2. What is an event?
+    When a user interacts with a site, like a click, scrolling, hovering over something, or pressing a key.
 3. What is an event listener?
+    It attaches a function to a selected element, allowing a function to be run when a specified event happens to the targeted element.
 4. Why would we convert a NodeList into an Array?
+    Arrays have more capabilities for data manipulation. NodeLists aren't compatible with certain array methods like map, reduce, and filter
 5. What is a component?
+    It's a stand-alone piece of code specifically built for recycled use in a web page or application.
